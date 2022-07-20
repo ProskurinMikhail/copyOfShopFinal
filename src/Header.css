@@ -1,0 +1,34 @@
+.all-header{
+    display: grid;
+    cursor: auto;
+    grid-template-columns: 165px 85px 935px 45px 45px 165px;
+    margin-bottom: 60px;
+}
+.header-name {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: Bold;
+    font-weight: 700;
+    font-size: 25px;
+    color: #101010;
+    fill: solid;
+  }
+  .header-heart {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    margin-top: 15px;
+    position:relative;
+    text-decoration: none;
+  }
+  .header-cart {
+    grid-column-start: 5;
+    grid-column-end: 5;
+    margin-top: 14px;
+    position:relative;
+    text-decoration: none;
+    margin-right: 31px;
+  }
